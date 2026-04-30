@@ -84,3 +84,22 @@ Tracks program implementation data by partner.
    ```sql
    CREATE DATABASE HumanitarianProgramDB;
    USE HumanitarianProgramDB;
+
+2. Run the table creation scripts (jurisdiction_hierarchy,    village_locations, beneficiary_partner_data).
+
+3. Insert the provided sample data.
+
+4. Execute the SQL queries in queries.sql to generate insights.
+
+## Example Insights
+Partner Reach: Identify organizations operating in more than 3 villages.
+
+District Coverage: Highlight sub-counties where beneficiaries exceed 10,000.
+
+Dominance Analysis: Find the leading partner in each district.
+
+## Contributions
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to modify.
+
+## License
+This project is licensed under the MIT License — feel free to use and adapt it for your own humanitarian data analysis projects.
